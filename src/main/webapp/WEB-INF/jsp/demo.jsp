@@ -11,5 +11,8 @@
 </head>
 <body>
 <p>hi all</p>
+<br>
+<p>${currentUser.id}</p>
+<p>${currentUser.name}</p>
 </body>
 </html>
