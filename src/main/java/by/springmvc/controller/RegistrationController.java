@@ -15,7 +15,7 @@ public class RegistrationController {
         System.out.println(firstName);
         System.out.println(lastName);
         System.out.println(user);
-        return "registration";
+        return "redirect:/register";
     }
     @GetMapping("/register")
     public String showRegisterPage(){
